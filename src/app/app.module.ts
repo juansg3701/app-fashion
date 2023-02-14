@@ -18,6 +18,7 @@ import { TextTitleBigComponent } from './components/atoms/text/text-title-big/te
 import { TextTitleLittleComponent } from './components/atoms/text/text-title-little/text-title-little.component';
 import { TextTitleMediumComponent } from './components/atoms/text/text-title-medium/text-title-medium.component';
 import { HeaderMenuComponent } from './components/organisms/header-menu/header-menu.component';
+import { MenuLeftComponent } from './components/organisms/menu-left/menu-left.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { HeaderMenuComponent } from './components/organisms/header-menu/header-m
     TextTitleBigComponent,
     TextTitleLittleComponent,
     TextTitleMediumComponent,
-    HeaderMenuComponent
+    HeaderMenuComponent,
+    MenuLeftComponent
   ],
   imports: [
     BrowserModule,

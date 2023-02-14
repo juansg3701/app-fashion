@@ -1,19 +1,22 @@
 .div-main {
     display: grid;
-    grid-template-areas: 'title title' 'interest profile-i';
+    grid-template-areas: 'title title title' 'menu-l interest profile-i';
+    grid-template-columns: auto 60% auto;
     
-    background-color: lightpink;
     border: 1px solid black;
 }
 
 .container-div{
     border: 1px solid black;
-    background-color: lightblue;
-    padding: 20px;
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
 }
 
 .main-tittle{
     grid-area: title;
+}
+.menu-left{
+    grid-area: menu-l;
 }
 
 .interests{
@@ -25,11 +28,18 @@
     grid-area: profile-i;
 }
 
+@media screen and (max-width: 570px) {
+    .div-main{
+        grid-template-areas: 'menu-l title' 'profile-i profile-i' 'interest interest';
+        grid-template-columns: auto auto;
+    }
+}
+
 
 
 //LEARNING
 
-@media  screen and (orientation: landscape) and (max-with:789px) {
+@media  screen and (orientation: landscape) and (max-width:789px) {
     .div-card-main {
         color:blue
     }

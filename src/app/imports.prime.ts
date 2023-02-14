@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import {CardModule} from 'primeng/card';
 import {ButtonModule} from 'primeng/button';
 import {ImageModule} from 'primeng/image';
-import {SlideMenuModule} from 'primeng/slidemenu';
+import {MenuModule} from 'primeng/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -12,7 +12,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         CardModule,
         ButtonModule,
         ImageModule,
-        SlideMenuModule,
+        MenuModule,
         BrowserAnimationsModule
     ],
     imports: [
