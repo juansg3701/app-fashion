@@ -1,0 +1,10 @@
+<p-card>
+
+    <p-fileUpload mode="basic" name="demo[]" accept="image/*"  (onUpload)="onUpload($event)"></p-fileUpload>
+</p-card>
+<h4>Tiny TFJS example<hr/></h4>
+<div >Training... {{final}}</div>
+
+<div >Number predict ... {{ prediction }}</div>
+
+<input type="number" (change)="linearPrediction($event)">

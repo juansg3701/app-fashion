@@ -5,7 +5,8 @@ import {ButtonModule} from 'primeng/button';
 import {ImageModule} from 'primeng/image';
 import {MenuModule} from 'primeng/menu';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {FileUploadModule} from 'primeng/fileupload';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
     exports: [
@@ -13,7 +14,10 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
         ButtonModule,
         ImageModule,
         MenuModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        FileUploadModule,
+        HttpClientModule,
+        
     ],
     imports: [
     ],

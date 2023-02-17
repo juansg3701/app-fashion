@@ -19,6 +19,9 @@ import { TextTitleLittleComponent } from './components/atoms/text/text-title-lit
 import { TextTitleMediumComponent } from './components/atoms/text/text-title-medium/text-title-medium.component';
 import { HeaderMenuComponent } from './components/organisms/header-menu/header-menu.component';
 import { MenuLeftComponent } from './components/organisms/menu-left/menu-left.component';
+import { ImageTextComponent } from './components/molecules/image-text/image-text.component';
+import { PredictComponent } from './pages/predict/predict.component';
+import { PredictsComponent } from './components/organisms/predicts/predicts.component';
 
 @NgModule({
   declarations: [
@@ -38,7 +41,10 @@ import { MenuLeftComponent } from './components/organisms/menu-left/menu-left.co
     TextTitleLittleComponent,
     TextTitleMediumComponent,
     HeaderMenuComponent,
-    MenuLeftComponent
+    MenuLeftComponent,
+    ImageTextComponent,
+    PredictComponent,
+    PredictsComponent
   ],
   imports: [
     BrowserModule,
